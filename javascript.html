@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript</title>
+  </head>
+  <body>
+    <script>
+      //string method
+      const length = sampleString.length;
+      const upperCase = sampleString.toUpperCase();
+      const lowerCase = sampleString.toLowerCase();
+      const trimmed = sampleString.trim();
+      const indexOf = sampleString.indexOf("is");
+
+      // Sample number for demonstration
+      const sampleNumber = 135.791;
+
+      // Number methods
+      const fixed = sampleNumber.toFixed(1);
+      const precision = sampleNumber.toPrecision(3);
+      const exponential = sampleNumber.toExponential(7);
+      const intValue = parseInt("35");
+      const floatValue = parseFloat("3.14");
+
+      // Sample array 
+      const sampleArray = [
+        5,
+        "apple",
+        9,
+        "banana",
+        3,
+        "orange",
+        7,
+        2,
+        "grape",
+        "cherry",
+      ];
+
+      // Array methods
+      const length = sampleArray.length;
+      const concat = sampleArray.concat([10, "strawberry"]);
+      const join = sampleArray.join(" | ");
+      const pop = sampleArray.pop();
+      const push = sampleArray.push("pear");
+
+     // Date methods
+     const currentDate = new Date();
+        const dateYear = currentDate.getFullYear();
+        const dateMonth = currentDate.getMonth();
+        const dateDay = currentDate.getDate();
+        const dateHours = currentDate.getHours();
+
+        function greet(name) {
+            return `Hello, ${name}!`;
+        }
+        const greetResult = greet("Alice");
+
+        const add = function (a, b) {
+            return a + b;
+        };
+        const addResult = add(3, 5);
+    </script>
+  </body>
+</html>
